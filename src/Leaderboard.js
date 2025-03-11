@@ -80,18 +80,18 @@ const Leaderboard = () => {
       <div className="p-6 border-b border-gray-200">
         <h3 className="text-xl font-bold text-gray-900">Leaderboard</h3>
       </div>
-      <div className="overflow-x-hidden">
-        <div className="overflow-y-auto overflow-x-hidden" style={{ maxHeight: 'calc(100vh - 400px)' }}>
-          <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50 sticky top-0">
+      <div className="w-full">
+        <div className="overflow-hidden">
+          <table className="w-full divide-y divide-gray-200">
+            <thead className="bg-gray-50">
               <tr>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="w-1/6 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Rank
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="w-3/6 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Player
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="w-2/6 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Points
                 </th>
               </tr>
